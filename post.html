@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Post your Blog</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class=" Post-container">
+        <h1> Edit your Blog</h1>
+            <form id="edit-form" style="display: none;">
+                <label for="title">Title:</label>
+                <br><br>
+                <input type="text" id="title" name="title">
+                <br><br>
+                <label for="content">Content:</label>
+                <br><br>
+                <textarea id="content" name="content"></textarea>
+                <br><br><br>
+                <button type="submit">Update Post</button>
+        </form>
+        <div id="post"></div>
+        <button id="delete-button" style="display: none;">Delete Post</button>
+    </div>
+        <script src="script.js" defer></script>
+        <br><br>
+        <a href="index.html">Back to Home</a><br><br>
+        <a href="new-post.html">Create a New Post</a><br><br>
+        
+</body>
+</html>
